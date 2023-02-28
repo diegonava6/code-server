@@ -39,9 +39,6 @@ RUN sudo apt-get install -y nodejs
 # Install expo
 RUN sudo npm i expo-cli@5.4.12 -g
 
-# Install node_modules 
-RUN sudo npm i
-
 
 # -----------
 
