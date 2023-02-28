@@ -39,8 +39,6 @@ RUN sudo apt-get install -y nodejs
 # Install expo
 RUN sudo npm i expo-cli@5.4.12 -g
 
-# Clone 'dev' Famgenix branch from Bitbucket 
-RUN sudo git clone https://diegonava6_:2bUtLGwY4hqYQ33dxDgH@bitbucket.org/Famgenix/famhis-app-v2.git
 
 # -----------
 
