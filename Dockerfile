@@ -37,7 +37,10 @@ RUN sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo bash -
 RUN sudo apt-get install -y nodejs
 
 # Install expo
-RUN sudo npm i expo-cli@5.4.12
+RUN sudo npm i expo-cli@5.4.12 -g
+
+# Clone 'dev' Famgenix branch from Bitbucket 
+git clone https://diegonava6_:2bUtLGwY4hqYQ33dxDgH@bitbucket.org/Famgenix/famhis-app-v2.git
 
 # -----------
 
