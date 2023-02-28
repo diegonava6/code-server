@@ -32,6 +32,13 @@ RUN sudo chown -R coder:coder /home/coder/.local
 # Copy files: 
 # COPY deploy-container/myTool /home/coder/myTool
 
+# Install NodeJS
+RUN sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo bash -
+RUN sudo apt-get install -y nodejs
+
+# Install expo
+RUN sudo npm i expo-cli@5.4.12
+
 # -----------
 
 # Port
